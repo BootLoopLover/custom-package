@@ -1,0 +1,54 @@
+
+config theme 'theme'
+	option color '#2222359a'
+	option blur '00'
+	option navbar '1'
+
+config navbar
+	option name 'Overview'
+	option enable 'Enable'
+	option line '1'
+	option newtab 'No'
+	option icon '/www/luci-static/carbonpx/peds/icon/navbar/overview.png'
+	option address '/cgi-bin/luci/admin/status/overview'
+
+config navbar
+	option name 'Terminal'
+	option enable 'Enable'
+	option line '2'
+	option newtab 'No'
+	option icon '/www/luci-static/carbonpx/peds/icon/navbar/terminal.png'
+	option address '/cgi-bin/luci/admin/services/ttyd'
+
+config navbar
+	option name 'Passwall2'
+	option enable 'Enable'
+	option line '3'
+	option newtab 'No'
+	option icon '/www/luci-static/carbonpx/peds/icon/navbar/openclash.png'
+	option address '/cgi-bin/luci/admin/modem/luci-app-sms-tool-js'
+	option address '/cgi-bin/luci/admin/services/passwall2'
+
+config navbar
+	option name 'Sms'
+	option enable 'Enable'
+	option line '4'
+	option newtab 'No'
+	option icon '/www/luci-static/carbonpx/peds/icon/navbar/neko.png'
+	option address '/cgi-bin/luci/admin/modem/luci-app-sms-tool-js'
+
+config navbar
+	option name 'Modem'
+	option enable 'Enable'
+	option line '5'
+	option newtab 'No'
+	option icon '/www/luci-static/carbonpx/peds/icon/navbar/modem.png'
+	option address '/cgi-bin/luci/admin/modem/modeminfo'
+
+config navbar
+	option name 'Reboot'
+	option enable 'Enable'
+	option line '6'
+	option newtab 'No'
+	option icon '/www/luci-static/carbonpx/peds/icon/navbar/network.png'
+	option address '/cgi-bin/luci/admin/system/reboot'
